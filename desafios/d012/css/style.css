@@ -54,15 +54,71 @@ header .subtitle{
     color: white;
 }
 
-section{
+.normal{
     font-family: 'Sriracha', cursive;
-    font-size: 44px;
-    line-height:2em;
-    padding-left: 30px;
-    padding-top: 100px;
-    
+    line-height: 2em;
+    font-size: 2.5em;
+    padding: 100px 0px 100px 30px;
 }
 
+.normal p{
+    padding-bottom: 70px;
+}
+
+.image1{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    line-height: 2em;
+    font-size: 2.5em;
+    padding: 100px 0px 100px 30px;
+    box-shadow: inset 8px 8px 19px -11px #000000;
+}
+
+.image1 p {
+    display: block;
+    width: fit-content;
+    padding: 5px;
+    background-color: #000000;
+}
+
+.image2 p {
+    display: block;
+    width: fit-content;
+    padding: 5px;
+    background-color: #00000080;
+    text-shadow: 1px 2px black;
+
+}
+
+.image2{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    line-height: 2em;
+    font-size: 2.5em;
+    padding: 100px 0px 100px 30px;
+    box-shadow: inset 8px 8px 19px -11px #000000;
+}
+
+
+#image1{
+    background-color: lightgrey;
+    background-image: url(../imagens/background001.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#image2{
+    background-color: lightgrey;
+    background-image: url(../imagens/background002.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
 
 
 
