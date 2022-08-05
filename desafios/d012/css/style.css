@@ -11,23 +11,26 @@ font-family: 'Sriracha', cursive;
 *{
     margin: 0px;
     padding: 0px;
-
-    
+  
 }
 
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
 
 header{
     background-color: black;
     color: white;
     
-
 }
 
 header .title{
     text-align: center;
+    font-variant: small-caps;
     padding-top: 50px;
     font-family: 'Passion One', cursive;
-    font-size: 127px;
+    font-size: 10vw;
     
 }
 
@@ -36,7 +39,7 @@ header .subtitle{
     padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 2.5vw;
 
 }
 
@@ -53,74 +56,60 @@ header .subtitle{
 .link:visited{
     color: white;
 }
-
-.normal{
-    font-family: 'Sriracha', cursive;
+ section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 2.5em;
-    padding: 100px 0px 100px 30px;
+    padding-left: 30px;
+    font-size: 3.5vw;
+ }
+
+ section p {
+    padding-bottom: 2em;
+ }
+
+section.normal{
+    background-color: white;
+    color: black;
+    font-family: 'Sriracha', cursive;
+            
 }
 
-.normal p{
-    padding-bottom: 70px;
-}
-
-.image1{
+section.image{
     font-family: 'Sriracha', cursive;
     color: white;
-    line-height: 2em;
-    font-size: 2.5em;
-    padding: 100px 0px 100px 30px;
     box-shadow: inset 8px 8px 19px -11px #000000;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.image1 p {
-    display: block;
-    width: fit-content;
+section#image1{
+    background-color: lightgrey;
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+section#image1 p {
+    display: inline-block;
     padding: 5px;
     background-color: #000000;
 }
 
-.image2 p {
-    display: block;
-    width: fit-content;
+section#image2{
+    background-color: lightgrey;
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+
+}
+
+section#image2 p {
+    display: inline-block;
     padding: 5px;
     background-color: #00000080;
     text-shadow: 1px 2px black;
 
 }
-
-.image2{
-    font-family: 'Sriracha', cursive;
-    color: white;
-    line-height: 2em;
-    font-size: 2.5em;
-    padding: 100px 0px 100px 30px;
-    box-shadow: inset 8px 8px 19px -11px #000000;
-}
-
-
-#image1{
-    background-color: lightgrey;
-    background-image: url(../imagens/background001.jpg);
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
-
-#image2{
-    background-color: lightgrey;
-    background-image: url(../imagens/background002.jpg);
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
-
-
 
 footer{
     background-color: black;
@@ -129,5 +118,5 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 16px;
-    padding: 10px 0px;
+    padding: 10px;
 }
